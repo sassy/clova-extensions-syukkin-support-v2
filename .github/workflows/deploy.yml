@@ -21,6 +21,9 @@ jobs:
         run: |
           npm ci
           npm run build
+          cd lambda
+          npm ci
+          npm run build
 
       - name: cdk deploy
         uses: youyo/aws-cdk-github-actions@master
