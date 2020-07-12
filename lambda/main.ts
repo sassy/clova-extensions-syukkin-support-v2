@@ -42,6 +42,14 @@ const intentHandler = async (responseHelper :any) => {
                 };
                 break;
             } else if (type === 4) {
+                const speech = SpeechBuilder.createSpeechText('OKです。' + 'マスクは着用しましたか？');
+                responseHelper.setSimpleSpeech(speech);
+                responseHelper.setSimpleSpeech(speech, true);
+                responseHelper.responseObject.sessionAttributes = {
+                    type: 5
+                };
+                break;
+            } else if (type === 5) {
                 const speeches = [
                     SpeechBuilder.createSpeechText('OKです。' 
                         + '鍵をかけるのを忘れないでください。'
