@@ -21,10 +21,10 @@
     "typescript": "3.9.7"
   },
   "dependencies": {
-    "@aws-cdk/aws-apigateway": "1.55.0",
-    "@aws-cdk/aws-iam": "1.55.0",
-    "@aws-cdk/aws-lambda": "1.55.0",
-    "@aws-cdk/core": "1.55.0",
+    "@aws-cdk/aws-apigateway": "1.56.0",
+    "@aws-cdk/aws-iam": "1.56.0",
+    "@aws-cdk/aws-lambda": "1.56.0",
+    "@aws-cdk/core": "1.56.0",
     "@line/clova-cek-sdk-nodejs": "1.2.1",
     "aws-serverless-express": "3.3.8",
     "body-parse": "0.1.0",
