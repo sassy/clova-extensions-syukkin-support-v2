@@ -18,7 +18,7 @@
     "ts-jest": "26.3.0",
     "aws-cdk": "1.61.1",
     "ts-node": "9.0.0",
-    "typescript": "4.0.2"
+    "typescript": "4.9.5"
   },
   "dependencies": {
     "@aws-cdk/aws-apigateway": "1.61.1",
