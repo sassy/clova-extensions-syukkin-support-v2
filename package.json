@@ -11,20 +11,20 @@
     "cdk": "cdk"
   },
   "devDependencies": {
-    "@aws-cdk/assert": "1.61.1",
+    "@aws-cdk/assert": "1.203.0",
     "@types/jest": "26.0.12",
     "@types/node": "10.17.28",
     "jest": "26.4.2",
     "ts-jest": "26.3.0",
-    "aws-cdk": "1.61.1",
+    "aws-cdk": "1.203.0",
     "ts-node": "9.0.0",
     "typescript": "4.0.2"
   },
   "dependencies": {
-    "@aws-cdk/aws-apigateway": "1.61.1",
-    "@aws-cdk/aws-iam": "1.61.1",
-    "@aws-cdk/aws-lambda": "1.61.1",
-    "@aws-cdk/core": "1.61.1",
+    "@aws-cdk/aws-apigateway": "1.203.0",
+    "@aws-cdk/aws-iam": "1.203.0",
+    "@aws-cdk/aws-lambda": "1.203.0",
+    "@aws-cdk/core": "1.203.0",
     "@line/clova-cek-sdk-nodejs": "1.2.1",
     "aws-serverless-express": "3.3.8",
     "body-parse": "0.1.0",
